@@ -1,6 +1,6 @@
-(function(){
-  'use strict';
-angular.module('assignment1' , [])
+  (function(){
+    'use strict';
+  angular.module('assignment1' , [])
 .controller('LunchCheckController',LunchCheckController) ;
  LunchCheckController.$inject = ['$scope' ,'$filter'] ;
 

@@ -29,7 +29,7 @@ function AlreadyBoughtController( ListService)
 
 var ctr2 = this ;
  ctr2.items =  ListService.getItemsBought() ;
- if ( !ctr2.items.length ) {
+ if ( ctr2.items.length ) {
    ctr2.message = "Nothing bought yet.";
  }
 
